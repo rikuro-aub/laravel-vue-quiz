@@ -11,4 +11,5 @@
 |
 */
 
-Route::get('/{any}', function () { return view('index'); })->where('any', '.*');
+Route::get('/', function () { return view('index'); });
+Route::get('/quiz', function () { return view('quiz.index'); });
