@@ -725,7 +725,7 @@ var staticRenderFns = [
         _c("a", { attrs: { href: "/" } }, [
           _c("img", {
             staticClass: "header-nav__logo",
-            attrs: { src: "/public/images/header-logo.png" }
+            attrs: { src: "/images/header-logo.png" }
           })
         ])
       ]),
@@ -1151,7 +1151,7 @@ var staticRenderFns = [
         _c("h2", { staticClass: "quiz-question-h2" }, [
           _c("img", {
             staticClass: "quiz-question__logo",
-            attrs: { src: "public/images/what-is-mark.png" }
+            attrs: { src: "images/what-is-mark.png" }
           }),
           _vm._v("\n            第1問\n          ")
         ]),
@@ -1195,7 +1195,7 @@ var staticRenderFns = [
         _c("h2", { staticClass: "quiz-correct-h2" }, [
           _c("img", {
             staticClass: "quiz-correct__logo",
-            attrs: { src: "public/images/correct-mark.png" }
+            attrs: { src: "images/correct-mark.png" }
           }),
           _vm._v("正解\n          ")
         ]),
@@ -1219,7 +1219,7 @@ var staticRenderFns = [
         _c("h2", { staticClass: "quiz-commentary-h2" }, [
           _c("img", {
             staticClass: "quiz-commentary__logo",
-            attrs: { src: "public/images/commentary-mark.png" }
+            attrs: { src: "images/commentary-mark.png" }
           }),
           _vm._v("解説\n          ")
         ]),
