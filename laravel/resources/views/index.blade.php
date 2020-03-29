@@ -10,6 +10,6 @@
   <div id="app">
     <App />
   </div>
-  <script src="/js/app.js"></script>
+  <script src="/js/home.js"></script>
 </body>
 </html>
