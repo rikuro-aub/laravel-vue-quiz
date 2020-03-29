@@ -1,11 +1,12 @@
 import Vue from 'vue'
-import App from './components/page/Home'
+import router from './router.js'
 import SocialSharing from 'vue-social-sharing'
+import axios from 'axios'
+
+Vue.prototype.$http = axios;
 
 Vue.use(SocialSharing);
+
 new Vue({
-    el: 'app',
-    components: {
-        app: App
-    }
-})
+    router: router,
+}).$mount('#app')
