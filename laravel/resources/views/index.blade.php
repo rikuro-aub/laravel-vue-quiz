@@ -8,8 +8,8 @@
 </head>
 <body>
   <div id="app">
-    <App />
+    <router-view />
   </div>
-  <script src="/js/home.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>
