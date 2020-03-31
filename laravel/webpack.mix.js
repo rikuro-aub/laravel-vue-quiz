@@ -22,5 +22,6 @@ mix.browserSync({
   files: [
     "public/**/*.*"
   ],
-  open: false
+  open: false,
+  port: 80
 });
